@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin-left: 90px;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.img{
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin-left: 450px;
+}
+
+h1{
+    color: #ff791f;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    margin-left: 390px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%; /* Aumenta a largura do formulário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+}
+
+label {
+    margin: 10px 0 5px;
+    color:#abaaaa;
+}
+
+input {
+    margin-bottom: 15px;
+    border: 1px solid #abaaaa;
+    border-radius: 5px;
+    width: 800px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.input-largo1{
+    padding: 20px;
+}
+
+.input-largo2{
+    padding: 20px;
+}
+
+.input-largo3{
+    padding: 80px;
+}
+
+.input-largo4{
+    padding: 70px;
+}
+
+.input-largo5{
+    padding: 20px;
+}
+
+button {
+    padding: 15px;
+    background:#ff791f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 30%;
+    margin-left: 300px;
+}
+
+button:hover {
+    background-color: #ff7f00;
+}
